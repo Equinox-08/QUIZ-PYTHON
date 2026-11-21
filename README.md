@@ -38,21 +38,16 @@
 ​You earn 1 point per correct answer, and the percentage is computed with (score / total) * 100. For persistence, get_high_score() checks if high_score.txt exists in the same folder as quiz.py and reads the saved integer (or returns 0 if none exists yet). When the quiz ends, save_high_score() overwrites the text file only if your new score beats the old record.
 
 ## Function Explanations
-| show_start_screen() | Clears the frame and loads the title, rules, saved high score, and start button when the app opens.
-|--------------|------------------|
-| start_quiz() | Resets the score, question counter, and wrong answers list, then shuffles the questions when Start or Restart is clicked.
-
-| ​show_question() | Displays the current question, choices, progress label, and starts the 15-second timer.
-|--------------|------------------|
-| update_timer() | Updates the countdown label every second until you submit an answer or the timer hits 0.
-
-​| submit_answer() | Stops the timer, locks the radio buttons, checks your selected letter, and enables the Next button.
-|--------------|------------------|
-| time_up() | Triggers at 0 seconds to mark the question wrong, show the right answer, and unlock the Next button.
-
-​| save_high_score() | Checks if your final score is higher than the stored record and writes it to high_score.txt.
-|--------------|------------------|
-| ​show_results() | Calculates your percentage, displays your performance message, and lists missed questions in the review box.
+| FUNCTION | PURPOSE | CALLED WHEN |
+|--------------|------------------|------------------|
+| show_start_screen() | Clears the frame and loads the title, rules, saved high score, and start button when the app opens.|
+| start_quiz() | Resets the score, question counter, and wrong answers list, then shuffles the questions when Start or Restart is clicked.|
+| ​show_question() | Displays the current question, choices, progress label, and starts the 15-second timer.|
+| update_timer() | Updates the countdown label every second until you submit an answer or the timer hits 0.|
+​| submit_answer() | Stops the timer, locks the radio buttons, checks your selected letter, and enables the Next button.|
+| time_up() | Triggers at 0 seconds to mark the question wrong, show the right answer, and unlock the Next button.|
+​| save_high_score() | Checks if your final score is higher than the stored record and writes it to high_score.txt.|
+| ​show_results() | Calculates your percentage, displays your performance message, and lists missed questions in the review box.|
 
 
 ## ​Screenshots
