@@ -1,16 +1,18 @@
 # TKINTER-QUIZ-SYSTEM
 # Solar System Explorer Quiz
 
-**Name:** Adrian J. Tor
-**Section:** BS INFORTECH SE-3A
+**Name:** [Your Name]
+**Section:** [Your Section]
 **Topic:** The Solar System
 
 ## How to Run the Program
-1. Make sure Python 3 (with Tkinter included) is installed on your computer[span_2](start_span)[span_2](end_span).
-2. Download or clone the repository and open the project folder containing `quiz.py`[span_3](start_span)[span_3](end_span).
-3. Run `quiz.py` from your terminal/command prompt or Python IDE:
+
+1. Make sure Python 3 is installed on your machine (Tkinter comes built-in on Windows and macOS).[span_3](start_span)[span_3](end_span)
+2. Open the folder containing `quiz.py` in your terminal or code editor.[span_4](start_span)[span_4](end_span)
+3. Run the file using:
    ```bash
    python quiz.py
+
 
 ## Features Completed
 1.​10 multiple-choice questions about the Solar System (4 choices each)
