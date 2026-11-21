@@ -1,9 +1,9 @@
 # TKINTER-QUIZ-SYSTEM
 # Solar System Explorer Quiz
 
-**Name:** Adrian J. Tor
-**Section:** SE - 3A
-**Topic:** The Solar System
+**Name:** Adrian J. Tor<br>
+**Section:** SE - 3A<br>
+**Topic:** The Solar System<br>
 
 ## How to Run the Program
 
