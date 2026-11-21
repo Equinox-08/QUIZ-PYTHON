@@ -1,8 +1,8 @@
 # TKINTER-QUIZ-SYSTEM
 # Solar System Explorer Quiz
 
-**Name:** [Your Name]
-**Section:** [Your Section]
+**Name:** Adrian J. Tor
+**Section:** SE - 3A
 **Topic:** The Solar System
 
 ## How to Run the Program
@@ -15,15 +15,15 @@
 
 
 ## Features Completed
-1.​10 multiple-choice questions about the Solar System (4 choices each)<br>
-2.​Questions shuffle every time you start or restart the quiz<br>
-3.​15-second countdown timer per question that auto-fails when time runs out
-4.​Instant answer checking that locks choices so you can't double-submit
-​5.Progress tracker showing the current question number and remaining time
-​6.Results screen with final score, percentage, and custom feedback message
-7.​Answer review box showing all missed questions and their right answers
-8.​High score saved in high_score.txt so it stays even after closing the app
-9.​Restart button and custom dark-space UI theme
+- ​10 multiple-choice questions about the Solar System (4 choices each)<br>
+- ​Questions shuffle every time you start or restart the quiz<br>
+- 15-second countdown timer per question that auto-fails when time runs out
+- ​Instant answer checking that locks choices so you can't double-submit
+- Progress tracker showing the current question number and remaining time
+- Results screen with final score, percentage, and custom feedback message
+- Answer review box showing all missed questions and their right answers
+- High score saved in high_score.txt so it stays even after closing the app
+- Restart button and custom dark-space UI theme
 
 ## ​How the Questions Are Stored and Shuffled
 ​I stored all 10 questions inside a list of dictionaries called QUESTIONS, where each dictionary holds the question text, a list of four choices, and the correct letter. I left out hardcoded numbers in the question strings since the UI handles numbering dynamically. When start_quiz() runs, random.sample() creates a shuffled copy of the list so the order is different every round without messing up the original list.
