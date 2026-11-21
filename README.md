@@ -39,7 +39,7 @@
 
 ## Function Explanations
 | FUNCTION | PURPOSE | CALLED WHEN |
-|--------------|------------------|------------------|
+|---------------------|------------------|------------------|
 | show_start_screen() | Clears the frame and loads the title, rules, saved high score, and start button | when the app opens.|
 | start_quiz() | Resets the score, question counter, and wrong answers list, then shuffles the questions | when Start or Restart is clicked.|
 | ​show_question() | Displays the current question, choices, progress label, and starts the 15-second timer.| when quiz starts |
