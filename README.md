@@ -44,9 +44,9 @@
 | start_quiz() | Resets the score, question counter, and wrong answers list, then shuffles the questions | when Start or Restart is clicked.|
 | ​show_question() | Displays the current question, choices, progress label, and starts the 15-second timer.| when quiz starts |
 | update_timer() | Updates the countdown label every second until you submit an answer or the timer hits 0.| when question screen is displayed |
-​| submit_answer() | Stops the timer, locks the radio buttons, checks your selected letter, and enables the Next button.| when submit button is clicked |
+| submit_answer() | Stops the timer, locks the radio buttons, checks your selected letter, and enables the Next button.| when submit button is clicked |
 | time_up() | Triggers at 0 seconds to mark the question wrong, show the right answer, and unlock the Next button.| when countdown timer reaches 0 secs |
-​| save_high_score() | Checks if your final score is higher than the stored record and writes it to high_score.txt.| when the result screen is shown |
+| save_high_score() | Checks if your final score is higher than the stored record and writes it to high_score.txt.| when the result screen is shown |
 | ​show_results() | Calculates your percentage, displays your performance message, and lists missed questions in the review box.| when all the questions have been completed |
 
 
