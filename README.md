@@ -49,7 +49,3 @@
 | save_high_score() | Checks if your final score is higher than the stored record and writes it to high_score.txt.| when the result screen is shown |
 | ​show_results() | Calculates your percentage, displays your performance message, and lists missed questions in the review box.| when all the questions have been completed |
 
-
-## ​Screenshots
-​Challenges I Faced
-​The trickiest part was keeping the timer from overlapping or still running in the background after submitting an answer or closing the window. Tracking the active callback with timer_job and cancelling it inside stop_timer() and on_close() fixed the timing bugs and kept the UI responsive.
