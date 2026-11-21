@@ -1,8 +1,8 @@
 # TKINTER-QUIZ-SYSTEM
 # Solar System Explorer Quiz
 
-**Name:** [Your Name]
-**Section:** [Your Section]
+**Name:** Adrian J. Tor
+**Section:** BS INFORTECH SE-3A
 **Topic:** The Solar System
 
 ## How to Run the Program
