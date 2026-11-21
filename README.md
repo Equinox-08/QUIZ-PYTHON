@@ -15,8 +15,8 @@
 
 
 ## Features Completed
-1.​10 multiple-choice questions about the Solar System (4 choices each)
-2.​Questions shuffle every time you start or restart the quiz
+1.​10 multiple-choice questions about the Solar System (4 choices each)<br>
+2.​Questions shuffle every time you start or restart the quiz<br>
 3.​15-second countdown timer per question that auto-fails when time runs out
 4.​Instant answer checking that locks choices so you can't double-submit
 ​5.Progress tracker showing the current question number and remaining time
